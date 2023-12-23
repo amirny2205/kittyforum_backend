@@ -1,0 +1,1 @@
+sudo docker run -p 5400:5432 --name postgres_kitty -e POSTGRES_PASSWORD=kitty_password -e POSTGRES_USER=kitty_user -e POSTGRES_DB=kitty_db -d postgres
